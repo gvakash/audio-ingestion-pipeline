@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Editor files
+.vscode/
+.idea/
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+
+# Output files
+chunks/
+*.wav
+*.mp3
