@@ -21,3 +21,5 @@ env/
 chunks/
 *.wav
 *.mp3
+
+aip/
