@@ -1,0 +1,21 @@
+# ── Core audio processing ──────────────────────────────────────
+librosa==0.11.0
+soundfile==0.14.0
+noisereduce==3.0.3
+pyloudnorm==0.2.0
+
+# ── Scientific stack ───────────────────────────────────────────
+numpy>=1.26,<2.0
+scipy>=1.13
+
+# ── ML / VAD ──────────────────────────────────────────────────
+torch==2.2.2
+torchaudio==2.2.2
+
+# ── Dev tools ─────────────────────────────────────────────────
+pytest
+black
+ruff
+
+# ── numba: install separately after LLVM is set up ────────────
+# numba>=0.51
